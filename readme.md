@@ -1,2 +1,2 @@
-Smart App – адаптивный шаблон лэндинговой страницы
-Скачан с сайта http://psd-html-css.ru/templates/smart-app-adaptivnyy-shablon-lendingovoy-stranicy
+Smart App вЂ“ Р°РґР°РїС‚РёРІРЅС‹Р№ С€Р°Р±Р»РѕРЅ Р»СЌРЅРґРёРЅРіРѕРІРѕР№ СЃС‚СЂР°РЅРёС†С‹
+РЎРєР°С‡Р°РЅ СЃ СЃР°Р№С‚Р° http://psd-html-css.ru/templates/smart-app-adaptivnyy-shablon-lendingovoy-stranicy
