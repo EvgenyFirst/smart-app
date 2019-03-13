@@ -15,7 +15,7 @@
 
 	</head>
 
-	<body>
+	<body class="custom">
 		<!--  -->
 		<!-- Section-1 -->
 		<section class="section-1">
@@ -23,35 +23,33 @@
 				<nav class="header_nav">
 					<ul class="header_nav-left">
 						<li>
-							<p>
-								<a href="#">
-									Smallapps
-								</a>	
+							<p class="logo-head height-fix">
+								Smallapps
 							</p>
 						</li>
 						<li>
-							<p>
+							<p class="nav-txt">
 								<a href="#">
 									Home
 								</a>	
 							</p>
 						</li>
 						<li>
-							<p>
+							<p class="nav-txt">
 								<a href="#">
 									Features
 								</a>	 
 							</p>
 						</li>
 						<li>
-							<p>
+							<p class="nav-txt">
 								<a href="#">
 									Screenshot
 								</a>	
 							</p>
 						</li>
 						<li>
-							<p>
+							<p class="nav-txt">
 								<a href="#">
 									Gallery
 								</a>	
@@ -60,17 +58,17 @@
 					</ul>
 					<ul class="header_nav-right">
 						<li>
-							<img src="img/phone.png">
+							<img class="img-first" src="img/phone.png">
 						</li>
 						<li>
-							<p>
+							<p class="tel-fx">
 								<a href="tel:800-123-456">
 									800-123-456
 								</a>
 							</p>
 						</li>
 						<li>
-							<img src="img/mail.png">
+							<img class="mail-fx" src="img/mail.png">
 						</li>
 						<li>
 							<p>
@@ -82,7 +80,18 @@
 					</ul>
 				</nav>
 			</header>
-			<div class="section-1__slider"></div>
+			<div class="section-1__slider">
+				<div class="gallery gallery-1">
+					<div class="photo">
+					  <img src="img/slide-smartphone-1.png" class="shown">
+					  <img src="img/slide-smartphone-2.png">
+					</div>
+					<div class="tabs">
+						 <input type="button" class="prev" value="Назад">
+						 <input type="button" class="next" value="Вперед">
+					</div>
+				</div>
+			</div>
 		</section>
 		<!-- Section-1 End -->
 		<!--  -->
@@ -121,6 +130,9 @@
 		<section></section>
 		<!-- Section-8 End -->
 		<!--  -->
+
+		<script type="text/javascript" src="js/slider.js"></script>
+
 	</body>
 
 </html>

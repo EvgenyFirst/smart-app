@@ -17,24 +17,57 @@
 
 .section-1__slider {
     min-height: 730px;
-    background-image: url(../img/bg-sect-1.png);
+    background: url('../img/bg-sect-1.png');
+    background-color: #0d68ae;
 }
 
 .header_nav {
+    padding-left: 20%;
+    max-width: 1169px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .header_nav ul {
     list-style-type: none;
 }
 
+.header_nav ul li p {
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+.logo-head {
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 19px; // in class .header_nav-left li padding-right: 15px; total 34px
+    color: #3c3d42;
+}
+.height-fix {
+    margin-top: 23px;
+    align-items: center;
+}
+
+.nav-txt {
+    font-weight: 400;
+    font-size: 14px;  
+    padding-right: 18px; // in class .header_nav-left li padding-right: 15px; total 33px
+}
+
 .header_nav ul li p a {
     text-decoration: none;
+    color: #3c3d42;
+
+    &:hover {
+        color: red;
+        transition: 0.7s;
+    }
+
 }
 
 .header_nav-left {
     display: flex;
+    align-items: center;
 }
 .header_nav-left li {
     padding-right: 15px;
@@ -42,9 +75,14 @@
 
 .header_nav-right {
     display: flex;
+    margin-top: 11px;
+    padding-left: 0;
 }
 .header_nav-right li {
     padding-right: 15px;
+}
+.header_nav-right li:nth-child(2) {
+    width: 89px;
 }
 .header_nav-right li:nth-child(3) {
     height: 13px;
@@ -54,6 +92,59 @@
     height: 14px;
     padding-top: 5.3%;
 }
+.header_nav-right li:first-child,
+.header_nav-right li:nth-child(3) {
+    padding-top: 3.4%;
+}
+.header_nav-right li:nth-child(2),
+.header_nav-right li:nth-child(4) {
+    padding-top: 0.5%;
+}
+.img-first {
+    padding-left: 266px; // in class .header_nav-left li padding-right: 15px; total 33px, .header_nav-right special padding-left: 0; total 299px
+}
+.tel-fx {
+    margin-left: -5px; // in class.header_nav-right li padding-right: 15px; total 10px
+}
+.mail-fx {
+    padding-left: 25px; // in class.header_nav-right li padding-right: 15px; total 40px
+}
+
+
+/* ---------- */
+/* Slider */
+/* ---------- */
+
+.gallery{
+ // width: 400px;
+    text-align: center;
+    margin: 0 auto; 
+}
+.photo{
+    position: relative;
+    height: 300px;
+}
+
+.photo img{
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    transition: opacity 1s;
+    height: max-content;
+}
+
+.photo img.shown{
+     opacity: 1;
+}
+
+.tabs{
+    text-align: center;
+    padding-top: 15%;
+    opacity: 0;
+}
+
+/* ---------- */
 
 /* --------------------------------------------- */
 /* --------------------------------------------- */
