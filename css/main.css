@@ -516,7 +516,7 @@ a:focus {
   padding-top: 7%;
   opacity: 0.5; }
   .section-3-left span:hover {
-    border-color: white;
+    color: #127088;
     -webkit-transition: 0.7s;
     -o-transition: 0.7s;
     transition: 0.7s; }
@@ -529,13 +529,13 @@ a:focus {
     padding-right: 6%;
     position: relative;
     padding-left: 6%;
-    top: -17px;
+    top: -15px;
     font-family: 'Raleway', Arial, sans-serif;
     /* text-align: center; */
     /* justify-content: center; */
     /* align-items: center; */ }
     .section-3-left span a:hover {
-      color: #9dc7d1;
+      color: #127088;
       -webkit-transition: 0.7s;
       -o-transition: 0.7s;
       transition: 0.7s; }
