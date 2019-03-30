@@ -3,5 +3,66 @@
 /* Section */
 /* --------------------------------------------- */
 
+.footer {
+    min-height: 308px;
+    background: url('../img/footer-bg.jpg');
+    background-color: #0d68ae;
+    background-size: cover;
+    background-position: center top;
+    opacity: 0.95; /* Полупрозрачный фон */
+}
+
+.footer__sect {
+    text-align: center;
+    justify-content: center;
+}
+
+.footer__header {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 76px;
+    font-size: 24px;
+    font-family: 'Raleway', Arial, sans-serif;
+    color: rgb( 140, 148, 148 );
+    font-weight: 600;
+}
+
+.footer__social-ico {
+    padding-top: 39px;
+    padding-right: 15px;
+
+    a {
+        text-decoration: none;
+
+        img {
+            padding-left: 9px;
+        } 
+
+    }
+
+}
+
+.footer__contact-links {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 70px;
+    padding-right: 45px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+    a {
+        font-family: 'Raleway', Arial, sans-serif;
+        color: rgb( 140, 148, 148 );
+        text-decoration: none;
+        padding-left: 18px;
+
+        &:hover {
+            color: rgb(93, 158, 158);
+            transition: 0.7s;
+        }
+    }
+}
 /* --------------------------------------------- */
 /* --------------------------------------------- */
