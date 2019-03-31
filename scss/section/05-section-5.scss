@@ -3,5 +3,106 @@
 /* Section */
 /* --------------------------------------------- */
 
+.section-5 {
+    min-height: 820px;
+    background-color: rgb( 242, 249, 254 );
+}
+
+.section-5__left-right {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 79px;
+    left: -25%;
+    /* margin-right: 54%; */
+    display: flex;
+}
+
+.section-5-left,
+.section-5-right {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 25%;
+    margin: auto;
+}
+
+.section-5-right {
+
+    h1 {
+        font-size: 36px;
+        font-family: 'Raleway', Arial, sans-serif;
+        color: rgb( 93, 202, 136 );
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 36px;
+        font-family: 'Raleway', Arial, sans-serif;
+        color: rgb( 140, 148, 148 );   
+    }
+
+    p {
+        width: 410px;
+        margin-bottom: 11%;
+        font-size: 16px;
+        font-family: 'Raleway', Arial, sans-serif;
+        color: rgb( 140, 148, 148 );
+        line-height: 1.5;
+    }
+
+    span {
+        background: none;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 50px 50px 50px 50px;
+        border-color: #636c6c;
+        background-color: rgba(13, 72, 98, 0);
+        cursor: pointer;
+        padding-top: 7%;
+        opacity: 0.5;
+        //margin-top: 30%;
+        //width: 238px;
+        //height: 59px;
+        
+        &:hover {
+            color: rgb(18, 112, 136);
+            transition: 0.7s;
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 21px;
+            color: #636c6c;
+            font-weight: bold;
+            padding-right: 6%;
+            position: relative;
+            padding-left: 6%;
+            top: -15px;
+            font-family: 'Raleway', Arial, sans-serif;
+            //top: 18px;
+            //color: white;
+            //position: absolute;
+            //top: 18px;
+            //padding-left: 25%;
+            /* text-align: center; */
+            /* justify-content: center; */
+            /* align-items: center; */
+        
+            &:hover {
+                color: rgb(18, 112, 136);
+                transition: 0.7s;
+            }
+        }
+    }
+}
+
+.two-smartphones {
+    bottom: -440px;
+    position: absolute;
+    left: 0;
+}
 /* --------------------------------------------- */
 /* --------------------------------------------- */
