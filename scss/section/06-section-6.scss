@@ -10,7 +10,9 @@
 #slider6 {
     text-align: center;
     min-height: 342px;
-    min-width: 642px;
+	min-width: 642px;
+	margin-top: 104px;
+	margin-bottom: 103px;
 }
 
 label, a {
@@ -99,7 +101,7 @@ article img {
 	}
 */
 #active {
-	margin-top: 23%;
+	//margin-top: 23%;
     margin-right: -105%;
     margin-bottom: 0px;
     margin-left: auto;
@@ -184,8 +186,8 @@ article img {
 #slide3:checked ~ #active label:nth-child(3),
 #slide4:checked ~ #active label:nth-child(4),
 #slide5:checked ~ #active label:nth-child(5) {
-	background: #5dca88;
-	border-color: #333 !important;
+	//background: #5dca88;
+	//border-color: #333 !important;
  ///background: #333;
 }
 
@@ -213,16 +215,15 @@ article img {
 /* Slider Styling */
 
 #slides {
-	margin-top: 0px;
 	margin-right: -35%;
     margin-bottom: 0px;
     margin-left: 70%;
-	border-radius: 5px;
-	box-shadow: 1px 1px 4px #666;
-	padding: 1%;
-	background: #fff;
-	background: rgb(252,255,244); /* Old browsers */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#dbdac9',GradientType=0 ); /* IE6-9 */
+	//border-radius: 5px;
+	//box-shadow: 1px 1px 4px #666;
+	padding: 0px;
+	//background: #fff;
+	//background: rgb(252,255,244); 
+	//filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#dbdac9',GradientType=0 );
 }
 
 

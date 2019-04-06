@@ -654,7 +654,9 @@ a:focus {
 #slider6 {
   text-align: center;
   min-height: 342px;
-  min-width: 642px; }
+  min-width: 642px;
+  margin-top: 104px;
+  margin-bottom: 103px; }
 
 label, a {
   color: teal;
@@ -726,7 +728,6 @@ article img {
 	}
 */
 #active {
-  margin-top: 23%;
   margin-right: -105%;
   margin-bottom: 0px;
   margin-left: auto;
@@ -796,14 +797,6 @@ article img {
   margin: 0 0 0 -70px;
   display: block; }
 
-#slide1:checked ~ #active label:nth-child(1),
-#slide2:checked ~ #active label:nth-child(2),
-#slide3:checked ~ #active label:nth-child(3),
-#slide4:checked ~ #active label:nth-child(4),
-#slide5:checked ~ #active label:nth-child(5) {
-  background: #5dca88;
-  border-color: #333 !important; }
-
 /* Info Box */
 .info {
   line-height: 20px;
@@ -824,19 +817,10 @@ article img {
 
 /* Slider Styling */
 #slides {
-  margin-top: 0px;
   margin-right: -35%;
   margin-bottom: 0px;
   margin-left: 70%;
-  border-radius: 5px;
-  -webkit-box-shadow: 1px 1px 4px #666;
-  box-shadow: 1px 1px 4px #666;
-  padding: 1%;
-  background: #fff;
-  background: #fcfff4;
-  /* Old browsers */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#dbdac9',GradientType=0 );
-  /* IE6-9 */ }
+  padding: 0px; }
 
 /* Animation */
 #slides .inner {
