@@ -20,7 +20,7 @@
 		<div class="page-wrap">
 					<!--  -->
 		<!-- Section-1 -->
-		<section class="section-1">
+		<section id="Home" class="section-1">
 				<div class="container">
 					<header class="section-1__header">
 						<nav class="header_nav">
@@ -32,28 +32,28 @@
 								</li>
 								<li>
 									<p class="nav-txt">
-										<a href="#">
+										<a href="#Home">
 											Home
 										</a>	
 									</p>
 								</li>
 								<li>
 									<p class="nav-txt">
-										<a href="#">
+										<a href="#Features">
 											Features
 										</a>	 
 									</p>
 								</li>
 								<li>
 									<p class="nav-txt">
-										<a href="#">
+										<a href="#Screenshot">
 											Screenshot
 										</a>	
 									</p>
 								</li>
 								<li>
 									<p class="nav-txt">
-										<a href="#">
+										<a href="#Gallery">
 											Gallery
 										</a>	
 									</p>
@@ -181,7 +181,7 @@
 			<!--  -->
 			<!--  -->
 			<!-- Section-2 -->
-			<section class="section-2">
+			<section id="Features" class="section-2">
 				<h1>Heading Feature title goes here</h1>
 				<p class="section-2__info">
 					Duis bibendum diam non erat 
@@ -299,7 +299,7 @@
 			<!--  -->
 			<!--  -->
 			<!-- Section-3 -->
-			<section class="section-3">
+			<section id="Screenshot" class="section-3">
 				<div class="section-3__left-right">
 					<div class="section-3-left">
 						<h1>
@@ -336,7 +336,7 @@
 			<!--  -->
 			<!--  -->
 			<!-- Section-4 -->
-			<section class="section-4">
+			<section id="Gallery" class="section-4">
 					<h1>Our Latest screenshots gallery</h1>
 					<h2>	
 						Duis bibendum diam non erat 
@@ -505,7 +505,7 @@
 			<!--  -->
 			<!--  -->
 			<!-- Section-7 -->
-			<section class="section-7">
+			<section id="section-7" class="section-7">
 				<div class="subs-form">
 					<div class="subs-form__header">
 						<img class="email-ico" src="img/mail-subscribe.png">
@@ -513,11 +513,12 @@
 					</div>
 					
 					<p class="under-input">E-mail address here</p>
-					<form action="mail.php" class="form" id="form" name="form">
+					<form method="post" action="mail.php" class="form" id="form" name="form">
 						<div class="subs-form__subs">
 							<input class="subs-form__subs-email" type="text" class="" 
-							name="name" placeholder="your email address" required="">		
-							<button class="subs-form__subs-submit">Submit</button>
+							name="email" placeholder="your email address" required="">		
+							 <!--<button id="submit" class="subs-form__subs-submit">Submit</button>-->
+							<input id="submit" type="submit" value="Submit" class="subs-form__subs-submit">
 						</div>
 					</form>
 				</div>
@@ -589,6 +590,7 @@
 		<script type="text/javascript" src="js/slider-s2/scripts.js"></script>
 		<script type="text/javascript" src="js/slider-s2/jquery.localscroll.js"></script>
 		<script type="text/javascript" src="js/slider-s4/slider-s4.js"></script>
+		<script type="text/javascript" src="js/send.js"></script>
 	</body>
 
 </html>

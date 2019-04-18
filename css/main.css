@@ -988,7 +988,8 @@ a:focus {
   color: white;
   text-transform: uppercase;
   line-height: 1.2;
-  font-weight: 400; }
+  font-weight: 400;
+  cursor: pointer; }
 
 /* --------------------------------------------- */
 /* --------------------------------------------- */
